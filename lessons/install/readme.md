@@ -55,7 +55,7 @@ In the Terminal:
 
 `python3 --version`
 
->> 3.6.2
+>> Python 3.6.1 :: Anaconda 4.4.0 (x86_64)
 
  
 
