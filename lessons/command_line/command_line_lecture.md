@@ -127,8 +127,8 @@ What if we want to read that file back out to the terminal?
 ```bash
 cat test_file.txt
 ```
-`cat` takes whatever is in the file and reads it out to stdout one line at a
-time.
+**`cat` takes whatever is in the file and reads it out to stdout one line at a
+time.**
 
 Let's get a bit fancier and load in a dataset. Let's pull it from the internet
 using `curl`.
@@ -366,7 +366,7 @@ If you ever want to learn more about a command, just type:
 ```
 man command_name
 ```
-
+(man for manual)
 for example:
 
 ```
