@@ -1,6 +1,14 @@
 ## Python Part 1 Assessment Notes
 
 ### Lambda
+https://www.w3schools.com/python/python_lambda.asp
+A lambda function is a small anonymous function.
+
+A lambda function can take any number of arguments, but can only have one expression.
+
+Syntax:
+``` lambda arguments : expression```
+
 
 Example:
 
@@ -14,7 +22,7 @@ Note: In the context of this article, a bound variable is an argument to a lambd
 
 You can apply the function above to an argument by surrounding the function and its argument with parentheses:
 ``` (lambda x: x + 1)(2)```
->>> 3
+> 3
 
 
 ### Map
