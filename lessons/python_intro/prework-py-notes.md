@@ -2,18 +2,19 @@
 
 ### Lambda
 
-```lambda x: x + 1
-```
-The keyword: lambda
+Example:
+
+```lambda x: x + 1```
+
+Where: the keyword: lambda
 A bound variable: x + 1
 A body: x
 
 Note: In the context of this article, a bound variable is an argument to a lambda function.
 
 You can apply the function above to an argument by surrounding the function and its argument with parentheses:
-``` (lambda x: x + 1)(2)
-```
-3
+``` (lambda x: x + 1)(2)```
+>>> 3
 
 
 ### Map
