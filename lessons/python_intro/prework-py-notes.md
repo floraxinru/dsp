@@ -89,3 +89,22 @@ https://realpython.com/python-lambda/#alternatives-to-lambdas
 --------------
 ### Python Datetime (useful!)
 https://www.w3schools.com/python/python_datetime.asp
+
+
+--------------
+### Big-O Complexity
+
+**Real-world examples:**
+* O(1) - determining if a number is odd or even
+* O(log N) - finding a word in the dictionary (using binary search)
+* O(N) - reading a book
+* O(N log N) - sorting a deck of playing cards (using merge sort)
+* O(N^2) - checking if you have everything on your shopping list in your trolley
+* O(10^N): trying to break a password by testing every possible combination (assuming numerical password of length N)
+
+**How to find time complexity of an algorithm**(Read)
+https://stackoverflow.com/questions/11032015/how-to-find-time-complexity-of-an-algorithm?rq=1
+
+https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation?rq=1
+
+https://stackoverflow.com/questions/3255/big-o-how-do-you-calculate-approximate-it
