@@ -29,3 +29,31 @@ Example:
   match = re.search(r'\d\d\d', 'p123g') # found, match.group() == "123"
   match = re.search(r'\w\w\w', '@@abcd!!') # found, match.group() == "abc"
   ```
+
+-----------
+
+Emails Example:
+
+Suppose you want to find the email address inside the string 'xyz alice-b@google.com purple monkey'. Here's an attempt using the pattern r'\w+@\w+':
+
+```
+  str = 'purple alice-b@google.com monkey dishwasher'
+  match = re.search(r'\w+@\w+', str)
+  if match:
+    print match.group()  ## 'b@google'
+```    
+   
+The search does not get the whole email address in this case because the \w does not match the '-' or '.' in the address. We'll fix this using the regular expression features below.
+
+
+Square Brackets
+
+Square brackets can be used to indicate a set of chars, so [abc] matches 'a' or 'b' or 'c'. The codes \w, \s etc. work inside square brackets too with the one exception that dot (.) just means a literal dot. For the emails problem, the square brackets are an easy way to add '.' and '-' to the set of chars which can appear around the @ with the pattern r'[\w.-]+@[\w.-]+' to get the whole email address:
+
+```
+  match = re.search(r'[\w.-]+@[\w.-]+', str)
+  if match:
+    print match.group()  ## 'alice-b@google.com'
+```
+
+You can also use a dash to indicate a range, so [a-z] matches all lowercase letters. To use a dash without indicating a range, put the dash last, e.g. [abc-]. An up-hat (^) at the start of a square-bracket set inverts it, so [^ab] means any char except 'a' or 'b'.
