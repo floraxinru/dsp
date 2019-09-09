@@ -20,8 +20,8 @@ The students will be:
 * Familiar with DefaultDict
 * Familiar with NamedTuples
 * Familiar with Deques
-* Understand the difference between a list and a generator
-* Be familiar with `yield` vs `return` and the purpose of generators
+* Understand the difference between a list and a generator *
+* Be familiar with `yield` vs `return` and the purpose of generators *
 
 ### Deep Copy
 
