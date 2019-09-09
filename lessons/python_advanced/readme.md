@@ -14,7 +14,7 @@ title: Optional Python Advanced
 
 # Learning Objectives
 
-### Advanced Python Data Types
+### Advanced Python Data Types :o:
 The students will be:
 
 * Familiar with DefaultDict
@@ -23,7 +23,7 @@ The students will be:
 * Understand the difference between a list and a generator *
 * Be familiar with `yield` vs `return` and the purpose of generators *
 
-### Deep Copy
+### Deep Copy :white_check_mark:
 
 The students will:
 
@@ -31,7 +31,7 @@ The students will:
 * Understand why deep copy is necessary
 * Know how to deep copy and when it is necessary.
 
-### Pickle: Saving Objects for Later
+### Pickle: Saving Objects for Later :white_check_mark:
 
 The students will:
 
