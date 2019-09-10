@@ -3,7 +3,8 @@
 (in assessment but not in lecture materials in this folder)
 
 * https://developers.google.com/edu/python/regular-expressions
-*problem: last updated 2016, methods such as 'U' in read 'rU' already deprecated*
+
+*problem: Dict and Files page last updated 2016, methods such as 'U' in read 'rU' already deprecated*
 
 Regular expressions are a powerful language for matching text patterns. The Python "re" module provides regular expression support.
 
