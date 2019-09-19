@@ -86,19 +86,27 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
-Given that Elvis is a boy and a twin, find the probability of the other twin as being identical (as opposed to fraternal):
 
+Given that Elvis is a boy and a twin, find probability of the other twin as being a boy and identical twin
 
-p(A|B) = (p(A) p(B|A))/p(B) - Bayesian Theorem
+p(A|B) = p(identical twin|twin boy) = (p(identical twins) p(twin boy|identical twin)/p(twin boys))
 
-p(IdenticalTwin|BoyTwin) = (p(IdenticalTwin in population) p(getting a boy, given identical twin))/p(BoyTwin in population) = ((1/300)(1/2))/((1-(1/125+1/300))/2)~1/300 (factor of 1/2 for boys cancelled, still the same as in the general population?)
+p(A) = p(identical twins) = 1/300
+
+p(B) = p(twin boys)= (1/125+1/300)/2 = 0.00566667
+
+p(B|A) = p(twin boy|identical twin) = 1/2 (given identical twins, probability of them being boys = 1/2)
+
+p(identical twin|twin boy) = ((1/300)*(1/2))/0.00566667 = 0.2941175
+
+So the probability that Elvis was an identical twin is about 0.2941175, slightly less than 30%.
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> They are both in the category of inferential statistics, where the goal is to try to infer something about a population from data coming from a sample taken from it. They differ in how the concept of *probability* is interpreted.
+They are both in the category of inferential statistics, where the goal is to try to infer something about a population from data coming from a sample taken from it. They differ in how the concept of *probability* is interpreted.
 
 Frequentist inference is based on long-term frequencies. According to the frequentist definition of probability, only *repeatable* random events (like the result of flipping a coin) have probabilities. Frequentists don’t attach probabilities to hypotheses, or to any fixed but unknown values in general.
 
