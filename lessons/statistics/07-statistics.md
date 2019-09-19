@@ -86,19 +86,30 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Given that Elvis is a boy and a twin, find the probability of the other twin as being identical (as opposed to fraternal):
+
+
+p(A|B) = (p(A) p(B|A))/p(B) - Bayesian Theorem
+
+p(IdenticalTwin|BoyTwin) = (p(IdenticalTwin in population) p(getting a boy, given identical twin))/p(BoyTwin in population) = ((1/300)(1/2))/((1-(1/125+1/300))/2)~1/300 (factor of 1/2 for boys cancelled, still the same as in the general population?)
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> They are both in the category of inferential statistics, where the goal is to try to infer something about a population from data coming from a sample taken from it. They differ in how the concept of *probability* is interpreted.
 
+Frequentist inference is based on long-term frequencies. According to the frequentist definition of probability, only *repeatable* random events (like the result of flipping a coin) have probabilities. Frequentists don’t attach probabilities to hypotheses, or to any fixed but unknown values in general.
+
+In contrast, Bayesians view probabilities as a more general concept. As a Bayesian, you can use probabilities to represent the uncertainty in any event or hypothesis. Here, it’s perfectly acceptable to assign probabilities to non-repeatable events.
+
+(https://www.probabilisticworld.com/frequentist-bayesian-approaches-inferential-statistics/)
 ---
 
 ## <a name="section-e"></a>5.  Optional Exercises
 
+（*planning to finish these after the 9/23 deadline*）
 The following exercises are optional, but we highly encourage you to complete them if you have the time.
 
 ### Q7. [Think Stats Chapter 7 Exercise 1](7-1-weight_vs_age.md) (correlation of weight vs. age)
