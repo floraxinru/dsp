@@ -69,6 +69,8 @@ Cohen's D is an example of effect size.  Other examples of effect size are:  cor
 
 You will see effect size again and again in results of algorithms that are run in data science.  For instance, in the bootcamp, when you run a regression analysis, you will recognize the t-statistic as an example of effect size.
 
+(modified jupyter notebook
+
 ### Q2. [Think Stats Chapter 3 Exercise 1](3-1-actual_biased.md) (actual vs. biased)
 This problem presents a robust example of actual vs biased data.  As a data scientist, it will be important to examine not only the data that is available, but also the data that may be missing but highly relevant.  You will see how the absence of this relevant data will bias a dataset, its distribution, and ultimately, its statistical interpretation.
 
@@ -113,8 +115,9 @@ They are both in the category of inferential statistics, where the goal is to tr
 Frequentist inference is based on long-term frequencies. According to the frequentist definition of probability, only *repeatable* random events (like the result of flipping a coin) have probabilities. Frequentists don’t attach probabilities to hypotheses, or to any fixed but unknown values in general.
 
 In contrast, Bayesians view probabilities as a more general concept. As a Bayesian, you can use probabilities to represent the uncertainty in any event or hypothesis. Here, it’s perfectly acceptable to assign probabilities to non-repeatable events.
-
 (https://www.probabilisticworld.com/frequentist-bayesian-approaches-inferential-statistics/)
+
+
 ---
 
 ## <a name="section-e"></a>5.  Optional Exercises
