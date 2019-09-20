@@ -29,6 +29,9 @@ print('Actual mean', pmfkd.Mean())
 print('Observed mean', biased_pmfkd.Mean())
 
 ```
+![Image of actual and biased pmfs](https://github.com/floraxinru/dsp/blob/master/lessons/statistics/3-1kids.png)
+
+
 Actual mean 1.02420515504
 Observed mean 2.40367910066
 
