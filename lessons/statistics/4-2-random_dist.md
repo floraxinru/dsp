@@ -16,10 +16,15 @@ thinkplot.Config(xlabel='Random numbers', ylabel='Pmf')
 thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='Random numbers', ylabel='Pmf')
 ```
+![Image of pmf for 1000 random numbers](https://github.com/floraxinru/dsp/blob/master/lessons/statistics/4-2pmf.png)
+
 The PMF plots (as bar graph or step functions) don't really make sense (no display for bar graph, and y-axis is close to 0 for step function). This could be due to the limitations to PMF as discussed in Chapter 4.1. Basically as the number of values gets large (1000 in this case), the effect of random noise increases. PMF only works well for a small number of values.
 
 ```
 thinkplot.Cdf(thinkstats2.Cdf(random1k, label='random1000'))
 thinkplot.Config(xlabel='Random numbers', ylabel='CDF')
 ```
+![Image of cdf for 1000 random numbers](https://github.com/floraxinru/dsp/blob/master/lessons/statistics/4-2cdf.png)
+
+
 CDF shows the distribution between 0 and 1 for these 1000 numbers is uniform.
