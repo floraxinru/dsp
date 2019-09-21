@@ -1,3 +1,4 @@
+(notes from Prework 5.1 and 5.2)
 ### Python file handling (open, read, write) tutorial:
 https://www.w3schools.com/python/python_file_handling.asp
 
@@ -6,6 +7,32 @@ https://www.w3schools.com/python/python_file_handling.asp
 * writing a dictionary from csv: https://docs.python.org/3/library/csv.html#csv.DictWriter
 
 https://stackoverflow.com/questions/6740918/creating-a-dictionary-from-a-csv-file
+
+* incrementing dict values (freq of key occurrence)
+https://stackoverflow.com/questions/1692388/python-list-of-dict-if-exists-increment-a-dict-value-if-not-append-a-new-dic
+
+> 
+```
+urls_d = {}
+for url in list_of_urls:
+    if not url in urls_d:
+        urls_d[url] = 1
+    else:
+        urls_d[url] += 1
+```
+This code for updating a dictionary of counts is a common "pattern" in Python. It is so common that there is a special data structure, defaultdict, created just to make this even easier:
+
+```
+from collections import defaultdict 
+
+urls_d = defaultdict(int)
+for url in list_of_urls:
+    urls_d[url] += 1
+```
+    
+If you access the defaultdict using a key, and the key is not already in the defaultdict, the key is automatically added with a default value. The defaultdict takes the callable you passed in, and calls it to get the default value. In this case, we passed in class int; when Python calls int() it returns a zero value. So, the first time you reference a URL, its count is initialized to zero, and then you add one to the count.
+
+-------
 
 ### REGEX - Python regular expressions
 
