@@ -104,7 +104,7 @@ So the probability that Elvis was an identical twin is about 0.2941175, slightly
 
 ---
 
-### Q6. Bayesian &amp; Frequentist Comparison ** 
+### Q6. Bayesian &amp; Frequentist Comparison 
 How do frequentist and Bayesian statistics compare?
 >>> Solution here
 
@@ -118,7 +118,7 @@ In contrast, Bayesians view probabilities as a more general concept. As a Bayesi
 
 ---
 
-## <a name="section-e"></a>5.  Optional Exercises
+## <a name="section-e"></a>5.  Optional Exercises***
 
 （*planning to finish these after the 9/23 deadline*）
 The following exercises are optional, but we highly encourage you to complete them if you have the time.
