@@ -5,6 +5,8 @@ https://www.w3schools.com/python/python_file_handling.asp
 
 * writing a dictionary from csv: https://docs.python.org/3/library/csv.html#csv.DictWriter
 
+https://stackoverflow.com/questions/6740918/creating-a-dictionary-from-a-csv-file
+
 ### REGEX - Python regular expressions
 
 (in assessment but not in lecture materials in this folder)
