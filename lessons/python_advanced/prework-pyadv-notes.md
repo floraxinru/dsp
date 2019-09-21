@@ -1,3 +1,6 @@
+### Python file handling (open, read, write) tutorial:
+https://www.w3schools.com/python/python_file_handling.asp
+
 ### REGEX - Python regular expressions
 
 (in assessment but not in lecture materials in this folder)
