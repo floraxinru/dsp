@@ -1,6 +1,8 @@
 ### Python file handling (open, read, write) tutorial:
 https://www.w3schools.com/python/python_file_handling.asp
 
+* add header to CSV file in Python: https://stackoverflow.com/questions/20347766/pythonically-add-header-to-a-csv-file
+
 ### REGEX - Python regular expressions
 
 (in assessment but not in lecture materials in this folder)
