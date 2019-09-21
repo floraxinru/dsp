@@ -1,4 +1,4 @@
-(notes from Prework 5.1 and 5.2)
+(notes from Prework assessment 5.2)
 ### Python file handling (open, read, write) tutorial:
 https://www.w3schools.com/python/python_file_handling.asp
 
