@@ -8,6 +8,7 @@ https://www.w3schools.com/python/python_file_handling.asp
 
 https://stackoverflow.com/questions/6740918/creating-a-dictionary-from-a-csv-file
 
+### dictionary
 * incrementing dict values (freq of key occurrence)
 https://stackoverflow.com/questions/1692388/python-list-of-dict-if-exists-increment-a-dict-value-if-not-append-a-new-dic
 
@@ -31,6 +32,13 @@ for url in list_of_urls:
 ```
     
 If you access the defaultdict using a key, and the key is not already in the defaultdict, the key is automatically added with a default value. The defaultdict takes the callable you passed in, and calls it to get the default value. In this case, we passed in class int; when Python calls int() it returns a zero value. So, the first time you reference a URL, its count is initialized to zero, and then you add one to the count.
+
+* sorting a dictionary by value
+https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value
+
+https://stackoverflow.com/questions/72899/how-do-i-sort-a-list-of-dictionaries-by-a-value-of-the-dictionary
+
+https://stackoverflow.com/questions/16772071/sort-dict-by-value-python
 
 -------
 
