@@ -34,17 +34,23 @@ lower = 177.8, upper = 185.42
 ```
 #find how many sigmas away are the upper and lower cutoffs
 1-((185.7-upper)/sigma)
+
+>0.9636363636363635
 ```
-0.9636363636363635
+
+
 The upper cutoff for Blue Man Group is about 0.9636 sigmas above the mean
 ```
 (178.0-lower)/sigma
+
+>0.025974025974024498
 ```
-0.025974025974024498
+
 Similarly, the lower cutoff is about 0.02597 sigmas below the mean
 
 ```
 dist.cdf(mu+(0.02597+0.9636)*sigma)
+>0.83880783027039496
 ```
-0.83880783027039496
+
 So about 83.9% of US male population are in the height range to join for the Blue Man Group.
